@@ -87,7 +87,7 @@ img {
 
 @keyframes pop {
   50% {
-    transform: scale(1.25);
+    transform: scale(1.5);
   }
 }
 button:hover {
