@@ -51,12 +51,14 @@ h1 {
   margin-bottom: 50px;
   margin-left: 100px;
 }
+
 h2 {
   color: rgb(255, 255, 255);
   /*   background-color: rgba(128, 225, 255, 0.603); */
   font-size: 25px;
   /*   border-style: ridge; */
-
+  animation: pop 0.8s ease-in-out;
+  animation-delay: 0.5s;
   font-family: ChildrenSans;
   margin: auto;
   width: 50%;
@@ -83,10 +85,17 @@ img {
   padding: 10px;
 }
 
+@keyframes pop {
+  50% {
+    transform: scale(1.25);
+  }
+}
 button:hover {
   background-color: #026485fd;
 }
 
 a:hover {
+  transition: all 0.8s ease;
+  animation: pulse 0.3s linear 1;
   background-color: #026485fd;
 }
