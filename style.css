@@ -66,6 +66,19 @@ h2 {
   padding: 10px;
 }
 
+.lol {
+  color: rgb(255, 255, 255);
+  /*   background-color: rgba(128, 225, 255, 0.603); */
+  font-size: 25px;
+  /*   border-style: ridge; */
+
+  font-family: ChildrenSans;
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+
 p {
   color: rgb(255, 255, 255);
   margin-left: 20px;
@@ -87,7 +100,7 @@ img {
 
 @keyframes pop {
   50% {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 }
 button:hover {
