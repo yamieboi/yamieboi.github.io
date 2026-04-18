@@ -44,6 +44,7 @@ body {
   color: rgb(41, 41, 41);
   user-select: none;
   font-size: 1.6em;
+  text-align: center;
 }
 
 .discordIntro{
