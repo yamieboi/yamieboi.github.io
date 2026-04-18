@@ -3,38 +3,6 @@
 
 <head>
     <style>
-        .button {
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 5px;
-            border-style: outset;
-            border-color: #4b4b4bb0;
-            color: rgb(255, 255, 255);
-            animation: pop 0.8s ease-in-out;
-            animation-delay: 0.5s;
-            font-family: ChildrenSans;
-        }
-
-        .button1 {
-            background-color: #0250a8e0;
-        }
-
-        /* Green */
-        .button2 {
-            background-color: #0250a8e0;
-        }
-
-        .button3 {
-            background-color: #0250a8e0;
-        }
-        
         .bigpapa {
             display: flex;
             flex-direction: column;
@@ -42,33 +10,6 @@
             align-content: center;
             justify-content: center;
             align-items: center;
-        }
-
-        .projects {
-            width: 250px;
-            margin-right: 25vw;
-            display: flex;
-            color: rgb(255, 255, 255);
-            /* background-color: rgba(128, 225, 255, 0.603); */
-            font-size: 25px;
-            /* border-style: ridge; */
-            animation: pop 0.8s ease-in-out;
-            animation-delay: 0.5s;
-            font-family: ChildrenSans;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            align-content: flex-start;
-            justify-content: flex-start;
-            align-items: flex-start;
-        }
-
-        .intro{
-            width: 250px;
-            margin-right: 25vw;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
         }
 
         /* Blue */
@@ -89,16 +30,34 @@
             <div class="introductionDesc">Student. Programmer. Loves low cortisol activies lol.</div>
         </div>
 
-        <div class="intro">
-            <div>
-                <a href="https://discord.gg/uxwc4HdQpt" class="button button2">Discord</a>
-                <a href="https://www.youtube.com/@yamieboi" class="button button1">Youtube</a>
-            </div>
+        <div class="discordContainer">
+            <a href="https://discord.gg/upsadxvpAC" target="_blank">
+                <img class="discordLogo" src="discord.svg"/>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/hasan-mahmud-mahim-193177229/" target="_blank">
+                <img class="discordLogo" src="linkedin.svg"/>
+            </a>
+
+            <a href="https://github.com/yamieboi" target="_blank">
+                <img class="discordLogo" src="github.svg"/>
+            </a>            
+
+            <a href="https://www.youtube.com/@yamieboi" target="_blank">
+                <img class="discordLogo" src="youtube.svg"/>
+            </a>
+
+            <a href="https://www.fiverr.com/s/bdNXlpP" target="_blank">
+                <img class="discordLogo" src="fiverr.svg"/>
+            </a>
         </div>
+        
         <div class="projects">
-            <div class="title">Projects</div>
-            <div>
-                <a href="https://cricket-scoreboard-system.vercel.app/" class="button button3">Cricket Scoreboard</a>
+            <div class="projectsTitle">Projects</div>
+            <div class="cricketScoreboard">
+                <a href="https://cricket-scoreboard-system.vercel.app/" target="_blank">
+                    <img class="cricketLogo" src="cricketScoreboardLogo.png"/>
+                </a>
             </div>
         </div>
     </div>
