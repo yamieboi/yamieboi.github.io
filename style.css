@@ -43,7 +43,7 @@ body {
   font-family: Outfit;
   color: rgb(41, 41, 41);
   user-select: none;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .discordIntro{
@@ -57,14 +57,14 @@ body {
   font-family: Outfit;
   color: rgb(41, 41, 41);
   user-select: none;
-  font-size: 1.4em;  
+  font-size: 1.2em;  
 }
 
 .introductionDesc{
   font-family: Outfit;
   color: rgb(41, 41, 41);
   user-select: none;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .introductionContainer{
@@ -113,7 +113,7 @@ body {
   font-family: Outfit;
   color: rgb(41, 41, 41);
   user-select: none;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 h1 {
