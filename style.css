@@ -10,6 +10,9 @@
 
 *{
   user-select: none;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  text-overflow: ellipsis; /* Show "..." for clipped text */
 }
 body {
   height: 100vh;
